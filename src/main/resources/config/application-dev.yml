@@ -32,8 +32,8 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:postgresql://localhost:5432/appAuth2
-    username: appAuth2
+    url: jdbc:postgresql://localhost:5432/appAuth
+    username: appAuth
     password:
     hikari:
       poolName: Hikari
@@ -47,7 +47,7 @@ spring:
     cache: false
 
 server:
-  port: 8080
+  port: 8081
 
 # ===================================================================
 # JHipster specific properties

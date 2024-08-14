@@ -399,7 +399,7 @@
                             </platforms>
                         </from>
                         <to>
-                            <image>appauth2:latest</image>
+                            <image>ibrahimlahouar/appauth2:${version}</image>
                         </to>
                         <container>
                             <entrypoint>
@@ -408,7 +408,7 @@
                                 <arg>/entrypoint.sh</arg>
                             </entrypoint>
                             <ports>
-                                <port>8080</port>
+                                <port>8081</port>
                             </ports>
                             <environment>
                                 <SPRING_OUTPUT_ANSI_ENABLED>ALWAYS</SPRING_OUTPUT_ANSI_ENABLED>
